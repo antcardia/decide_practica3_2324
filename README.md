@@ -1,4 +1,5 @@
 FT1
+FT2
 
 Plataforma voto electrónico educativa
 =====================================
