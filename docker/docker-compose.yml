@@ -18,7 +18,7 @@ services:
     build: .
     command: ash -c "python manage.py migrate && gunicorn -w 5 decide.wsgi --timeout=500 -b 0.0.0.0:5000"
     expose:
-      - "5000"
+      - "8003:5000"
     volumes:
       - static:/app/static
     depends_on:
